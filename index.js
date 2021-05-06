@@ -6,7 +6,7 @@
 // Dependencies
 var http = require('http')
 var url = require('url')
-var stringDecoder = require('string_decoder').StringDecoder
+var StringDecoder = require('string_decoder').StringDecoder
 
 // The server should respond to all request with a string
 var server = http.createServer(function(req, res) {
